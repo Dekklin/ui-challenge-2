@@ -1,0 +1,27 @@
+input {
+  display: block;
+}
+label {
+  display: block;
+}
+
+#require {
+  color: red;
+  margin-top: -20px;
+}
+.arrow {
+  width: 10px;
+  display: inline-block;
+}
+.arrowu {
+  width: 10px;
+  display: none;
+
+}
+
+li {
+  display: block;
+}
+.optionlist {
+  display: invisible;
+}
