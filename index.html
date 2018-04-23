@@ -3,14 +3,46 @@
   <head>
     <title>UI Challenge #2</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700|Noto+Serif:700" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <header><h1>UI Challenge - Custom Form Elements</h1></header>
   <body>
     <main>
+      <div>
+        <p>Text Input</p>
+        <label>
+          <input id="1st-text" type="text" name="1st-text"
+        class="form-control" placeholder="important placeholder text" required=''/>
+      </label>
+    </div>
+    <div>
+      <form>
+      <p>Text Input with Validation</p>
+      <label for= 'AccountText2'>Text Input with Validation</label>
+        <input id="textbox" type="text" name="AccountText2" value=""
+        class="form-control" placeholder="Very important placeholder text"/>
+        <div id="require"><p>Please Fill in the text</p></div>
+    </form>      
+    </div>
+<div class"dropdownnav">
+  <h2>Select Box</h2>
+  <li class="dropdown">Please Select One<img class="arrow"
+    src = "style/arrow down.png"><img class="arrowu" src ="style/arrow up.png"></li>
+  <div class="optionlist">
+    <li>Option 1</li>
+    <li>Option 2</li>
+    <li>Option 3</li>
+    <li>Option 4</li>
+    <li>Option 5</li>
+  </div>
+</div>
 
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
     
-  </body>
+  </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="style/style.js"></script>
 </html>
